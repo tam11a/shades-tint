@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			type="text/css"
+			media="screen"
+			href="main.css"
+		/>
+	</head>
+	<body>
+		<div class="flex flex-row gap-1">
+			<img
+				src="favicon.svg"
+				width="30px"
+			/>
+			<div class="flex flex-col flex-1">
+				<h3>Color Shades</h3>
+				<p>Generate Color Shades</p>
+			</div>
+		</div>
+		<hr class="my-1" />
+		<div
+			class="flex flex-row items-center gap-1 p-1"
+			style="background-color: #00000011; border-radius: 4px"
+		>
+			<input
+				type="color"
+				class="border-none outline-none"
+				style="width: 25px"
+				id="colorpickerInput"
+				onchange=""
+			/>
+			<input
+				type="text"
+				placeholder="#000000"
+				class="border-none outline-none flex-1"
+				style="
+					font-size: 1rem;
+					font-weight: bold;
+					width: 100%;
+					background: transparent;
+				"
+				id="colortextInput"
+			/>
+			<div>
+				<span
+					class="material-symbols-outlined icon-btn"
+					id="eyedropper"
+				>
+					colorize
+				</span>
+				<span
+					class="material-symbols-outlined icon-btn"
+					id="copy"
+				>
+					content_copy
+				</span>
+			</div>
+		</div>
+		<hr class="my-1" />
+
+		<script src="main.js"></script>
+	</body>
+</html>

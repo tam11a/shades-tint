@@ -1,0 +1,19 @@
+{
+	"manifest_version": 3,
+	"name": "Color Shades",
+	"version": "1.0.1",
+	"version_name": "1.0 beta",
+	"description": "Generates color shades from eyedropper or color codes for designers and developers.",
+	"author": {
+		"email": "ibrahimsadiktamim@gmail.com"
+	},
+	"permissions": ["activeTab", "scripting"],
+	"action": {
+		"default_icon": {
+			"16": "/attachment/favicon.png",
+			"32": "/attachment/favicon.png",
+			"48": "/attachment/favicon.png"
+		},
+		"default_popup": "source/html/popup/index.html"
+	}
+}
